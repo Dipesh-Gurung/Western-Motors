@@ -1,0 +1,1 @@
+about us<?php /**PATH C:\xampp\htdocs\laravel\western_motors\resources\views/about-us.blade.php ENDPATH**/ ?>

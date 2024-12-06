@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\laravel\western_motors\resources\views/layouts/partial/error.blade.php ENDPATH**/ ?>

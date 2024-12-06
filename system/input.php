@@ -18,6 +18,7 @@ class Input {
 	{
 		foreach (func_get_args() as $key)
 		{
+<<<<<<< HEAD
 			if (is_null(static::get($key)))
 			{
 				return false;
@@ -37,6 +38,9 @@ class Input {
 		foreach (func_get_args() as $key)
 		{
 			if ( ! static::has($key) or trim((string) static::get($key)) == '')
+=======
+			if (is_null($value = static::get($key)) or trim((string) $value) == '')
+>>>>>>> aee154c1 (Tweaked Input::has method to accept multiple arguments and to return false if an argument is an empty string.)
 			{
 				return false;
 			}
